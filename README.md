@@ -1,5 +1,3 @@
-GitHub Copilot: Sure, here's your README.md file refactored to use GitHub flavored markdown:
-
 ```markdown
 # 1033 Program Data Visualization Web Application
 
