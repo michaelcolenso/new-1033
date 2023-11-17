@@ -88,13 +88,7 @@ npm run build
 
 Then follow your deployment strategy to deploy both backend and frontend.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Support
 
 For any support issues, please open an issue in the repository or contact the project maintainers directly.
 ```
-
-In GitHub flavored markdown, you can specify the language directly after the opening triple backticks to enable syntax highlighting. In this case, I've specified `bash` as the language for the code blocks.
