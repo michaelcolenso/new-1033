@@ -1,4 +1,3 @@
-```markdown
 # 1033 Program Data Visualization Web Application
 
 ## Introduction
