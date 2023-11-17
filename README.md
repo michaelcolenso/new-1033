@@ -1,4 +1,6 @@
+GitHub Copilot: Sure, here's your README.md file refactored to use GitHub flavored markdown:
 
+```markdown
 # 1033 Program Data Visualization Web Application
 
 ## Introduction
@@ -13,52 +15,52 @@ This web application visualizes county-level data from the 1033 Program. It's bu
 
 First, clone the repository to your local machine:
 
-\```sh
+```bash
 git clone [repository_url]
 cd [repository_name]
-\```
+```
 
 ### Backend Setup
 
 Navigate to the backend directory and install dependencies:
 
-\```sh
+```bash
 cd backend
 npm install
-\```
+```
 
 Create a `.env` file from the example and configure your environment variables:
 
-\```sh
+```bash
 cp .env.example .env
-\```
+```
 
 (Optional) Seed the database:
 
-\```sh
+```bash
 node seeders/seed.js
-\```
+```
 
 Start the backend server:
 
-\```sh
+```bash
 npm start
-\```
+```
 
 ### Frontend Setup
 
 In a new terminal, navigate to the frontend directory from the project root and install dependencies:
 
-\```sh
+```bash
 cd ../frontend
 npm install
-\```
+```
 
 Start the frontend development server:
 
-\```sh
+```bash
 npm run dev
-\```
+```
 
 The application will be available at `http://localhost:5000`.
 
@@ -66,26 +68,26 @@ The application will be available at `http://localhost:5000`.
 
 To run the backend tests:
 
-\```sh
+```bash
 cd backend
 npm test
-\```
+```
 
 To run the frontend tests:
 
-\```sh
+```bash
 cd ../frontend
 npm test
-\```
+```
 
 ## Deployment
 
 Build the frontend for production:
 
-\```sh
+```bash
 cd frontend
 npm run build
-\```
+```
 
 Then follow your deployment strategy to deploy both backend and frontend.
 
@@ -96,3 +98,6 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 ## Support
 
 For any support issues, please open an issue in the repository or contact the project maintainers directly.
+```
+
+In GitHub flavored markdown, you can specify the language directly after the opening triple backticks to enable syntax highlighting. In this case, I've specified `bash` as the language for the code blocks.
